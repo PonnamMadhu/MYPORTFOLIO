@@ -16,6 +16,7 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 .links{
     text-decoration: none;
@@ -45,11 +46,13 @@ body{
 .bullets{
     list-style: none;
     text-decoration: none;
+    text-align: end;
 }
 .navigation{
     background-color: var(--pcolor);
     padding: 1rem;
     border-bottom-left-radius:1rem ;
+    
 }
 .navigation .links{
     color: white;
@@ -73,11 +76,13 @@ body{
     text-align: center;
     padding: 1rem 0rem;
     background-color: white;
+    
 }
 .subs2{
     text-align: center;
     background-color: var(--gray);
     padding: 1rem 0rem;
+    font-weight: lighter;
 }
 .subs1 h3{
     text-align: center;
@@ -95,3 +100,8 @@ body{
 .footer .active{
     font-weight: bold;
 } 
+.projectslist{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
