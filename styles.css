@@ -19,20 +19,27 @@ body{
 }
 .links{
     text-decoration: none;
+    color: white;
+    
+
 }
 .primary-link{
+    
     background-color:blue;
     border-radius: 0.3rem;
     color: white;
+    font-weight: bold
 }
 .secondary-link{
     color: blue;
     border-radius: 0.5rem;
     border: 1px solid blue;
+    font-weight: bold
 }
 .list-inline{
     display: inline;
     padding: 0rem 0.5rem;
+    color: white;
 
 }
 .bullets{
@@ -63,18 +70,21 @@ body{
     
 }
 .subs1{
-    
-    background-color: whitesmoke;
+    text-align: center;
+    padding: 1rem 0rem;
+    background-color: white;
 }
 .subs2{
+    text-align: center;
     background-color: var(--gray);
+    padding: 1rem 0rem;
 }
 .subs1 h3{
     text-align: center;
 }
 .footer{
     background-color:var(--pcolor);
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     text-align: center;
     color: white;
 }
@@ -82,3 +92,6 @@ body{
     font-weight: bold
 
 }
+.footer .active{
+    font-weight: bold;
+} 
