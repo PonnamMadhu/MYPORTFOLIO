@@ -28,11 +28,11 @@ body{
     
     background-color:blue;
     border-radius: 0.3rem;
-    color: white;
+    color:white;
     font-weight: bold
 }
 .secondary-link{
-    color: blue;
+    color:blue;
     border-radius: 0.5rem;
     border: 1px solid blue;
     font-weight: bold
@@ -40,7 +40,7 @@ body{
 .list-inline{
     display: inline;
     padding: 0rem 0.5rem;
-    color: white;
+    color:white;
 
 }
 .bullets{
