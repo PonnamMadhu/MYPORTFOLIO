@@ -21,6 +21,7 @@ body{
 .links{
     text-decoration: none;
     color: white;
+    margin-left: 1rem;
       
 }
 .primary-link{
@@ -103,4 +104,10 @@ body{
     text-decoration: none;
     list-style: none;
     text-align: center;
+}
+section >div {
+margin-bottom: 1rem;
+}
+ul>li>div{
+    margin-bottom: 1rem;
 }
